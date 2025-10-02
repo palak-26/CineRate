@@ -5,6 +5,7 @@ import MovieDetails from "./Components/MovieDetails";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
+
 export default function App() {
   const [movies, setMovies] = useState([]);
   const [trending, setTrending] = useState([]);
@@ -18,6 +19,7 @@ export default function App() {
         `https://api.themoviedb.org/3/trending/movie/week?api_key=${API_KEY}`
       );
       const data = await res.json();
+      
       setTrending(data.results || []);
     };
     fetchTrending();
