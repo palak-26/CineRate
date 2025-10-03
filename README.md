@@ -62,19 +62,22 @@ Details Screenshot
 git clone https://github.com/palak-26/CineRate.git
 ```
 ### 2️⃣ Install dependencies
+```bash
 npm install
-
+```
 ### 3️⃣ Create .env file
-
 Create a file named .env in the project root:
-
+```bash
 VITE_API_KEY=your_tmdb_api_key_here
+```
 
 ### 4️⃣ Run locally
+```bash
 npm run dev
-
+```
 
 ### 📂 Project Structure
+```bash
 CineRate/
 │── src/
 │   ├── Components/
@@ -88,7 +91,7 @@ CineRate/
 │── vite.config.js
 │── tailwind.config.js
 │── README.md
-
+```
 
 ### ✨ Future Improvements
 
