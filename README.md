@@ -12,7 +12,7 @@ Deployed seamlessly on **Netlify**.
 ---
 
 ## 🚀 Live Demo  
-🔗 CineRate on Netlify :- https://cinerate-movie-ratingnreview-platform.netlify.app/
+🔗 CineRate on Netlify :- https://cineratemovieratingsystem.netlify.app/
 
 ---
 
